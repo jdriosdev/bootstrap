@@ -1,9 +1,9 @@
 import React, { useEffect, useReducer } from 'react'
 import { todoReducer } from './todoReducer';
 import { TodoAdd } from './TodoAdd';
+import { TodoList } from './TodoList';
 
 import './styles.css';
-import { TodoList } from './TodoList';
 
 const init = () => {
   
